@@ -1,0 +1,131 @@
+.login-box {
+    width: 3.75rem;
+
+    //输入框的样式
+    .header {
+        margin-top: .3rem;
+        width: 100%;
+        border-top: 1px #ccc solid;
+        border-bottom: 1px #ccc solid;
+        background-color: #fff;
+
+        .username-box,
+        .password-box {
+            width: 3.55rem;
+            margin-left: .2rem;
+            border-bottom: 1px rgba(204, 204, 204, 0.493) solid;
+            display: flex;
+            align-items: center;
+
+            .ueser-icon {
+                width: .33rem;
+                padding-right: .15rem;
+                color: #008842;
+            }
+
+            .uesername,
+            .password {
+                flex: 1;
+                height: .6rem;
+                font-size: .18rem;
+            }
+        }
+
+        //随机验证
+        .code-box {
+            height: .6rem;
+            text-align: center;
+            .code-input{
+                width: 70%;
+                height: 100%;
+                font-size: .18rem;
+            }
+
+            .code-style {
+                font-size: 16px;
+                color: red;
+                border: 1px #ccc solid;
+                padding: .04rem .1rem;
+                font-weight: bold;
+            }
+        }
+
+        //短信验证
+        // .sms {
+        //     width: 100% !important;
+        //     height: .6rem;
+        //     font-size: .16rem;
+        //     display: flex;
+
+        //     .van-cell__value {
+        //         // width: 2.85rem !important;
+        //         font-size: .18rem;
+
+        //         .van-field__body {
+        //             padding-right: .1rem;
+        //         }
+        //     }
+        // }
+
+    }
+
+    //忘记密码的样式
+    .forget-box {
+        font-size: .14rem;
+        color: #008842;
+        padding: .2rem;
+    }
+
+    //提交按钮的样式
+    .submit-box {
+        width: 100%;
+        height: .6rem;
+        margin-top: .14rem;
+        padding: 0 .15rem;
+        display: flex;
+        justify-content: space-around;
+
+        button {
+            width: 1.42rem;
+            height: .4rem;
+            border: none;
+            border-radius: .05rem;
+        }
+
+        .submit-login {
+            background-color: #008842;
+            color: #fff;
+            font-size: .16rem;
+        }
+
+        .submit-register {
+            border: 1px #34a068 solid;
+            background-color: #fff;
+            color: #34a068;
+            font-size: .16rem;
+        }
+    }
+
+    //logo的样式
+    .logo-box {
+        width: 100%;
+        margin-top: 2.3rem;
+        display: flex;
+        justify-content: center;
+        z-index: 30;
+
+        img {
+            width: 1.04rem;
+            height: .34rem;
+            z-index: 30;
+        }
+    }
+    .footer-box{
+        width: 100%;
+        height: .5rem;
+        background-color: #f4f4f4;
+        position: fixed;
+        bottom: -0.01rem;
+        z-index: 20;
+    }
+}

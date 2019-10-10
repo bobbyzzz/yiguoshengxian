@@ -1,0 +1,116 @@
+.forget-box {
+    width: 3.75rem;
+
+    .header-box {
+        margin-top: .3rem;
+        border-top: 1px #ccc solid;
+
+        //短信验证
+        .sms {
+            width: 100% !important;
+            height: .6rem;
+            font-size: .16rem;
+            display: flex;
+
+            .van-cell {
+                border-bottom: 1px #ccc solid;
+
+                .van-cell__value {
+                    font-size: .18rem;
+
+                    .van-field__body {
+                        .van-field__control {
+                            padding-left: .04rem;
+                        }
+
+                        .sms-button {
+                            border-radius: .04rem !important;
+                            background-color: #008842;
+                            border: none;
+
+                        }
+                    }
+                }
+            }
+
+        }
+
+
+        //输入框的样式
+        .header-input {
+            width: 100%;
+            height: .615rem;
+            font-size: .18rem;
+            padding-left: .2rem;
+            color: #323233 !important;
+            border-bottom: 1px rgba(204, 204, 204, 0.555) solid;
+        }
+
+        input::-webkit-input-placeholder,
+        text::-webkit-input-placeholder {
+            color: #757575;
+            font-size: 16px;
+        }
+    }
+
+    //条款的样式
+    .clause-box {
+        width: 100%;
+        margin-top: .1rem;
+        color: rgb(160, 158, 158);
+        text-align: center;
+        font-family: 'Avenir', 'PingFang SC', "\5FAE\8F6F\96C5\9ED1";
+        display: flex;
+        justify-content: center;
+        align-content: center;
+
+        input {
+            margin-right: .04rem;
+            height: .135rem;
+            width: .135rem;
+        }
+
+        .clause-txt {
+            span {
+                color: #1c9557;
+            }
+        }
+    }
+
+    //注册按钮的样式
+    .button-box {
+        width: 100%;
+        height: .4rem;
+        margin-top: .29rem;
+        padding: 0 .14rem;
+        display: flex;
+        justify-content: space-around;
+
+        .button-txt {
+            width: 1.42rem;
+            height: 100%;
+            background-color: #008842;
+            border-radius: .04rem;
+            color: #fff;
+            font-size: .16rem;
+            border: none;
+        }
+        .button-return{
+            width: 1.42rem;
+            height: 100%;
+            border-radius: .04rem;
+            border: 1px #008842 solid;
+            color: #008842;
+            background-color: #fff;
+            font-size: .16rem;
+        }
+    }
+    .footer-box{
+        width: 100%;
+        height: .5rem;
+        background-color: #f4f4f4;
+        position: fixed;
+        bottom: -0.01rem;
+        z-index: 20;
+    }
+}

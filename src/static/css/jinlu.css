@@ -1,0 +1,202 @@
+.dahuzhi{
+    /* margin-bottom: .5rem; */
+}
+
+.flex{
+    padding: 0;
+}
+.dahuzhi .flex .zir{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dahuzhi .flex .zir p{
+    padding-bottom: 5px;
+}
+.sws{
+    width: 3.75rem;
+    height: .5rem;
+    /* border: red 1px solid; */
+    margin-top: .1rem;
+}
+.p{
+    margin-top: .65rem;
+}
+.p p {
+    padding: 0px;
+    color: rgb(89, 87, 87);
+    font-size: .14rem;
+    line-height: .18rem;
+    margin-top: .1rem;
+    letter-spacing: 0.544px;
+    font-family: PingHei, Helvetica, STHeitiSC-Light, Arial, sans-serif;
+    padding-bottom: .21rem;
+    margin-left: .11rem;
+}
+
+.p span {
+    padding: 0px;
+    font-size: .14rem;
+    color: rgb(255, 255, 255);
+    font-family: PingHei, Helvetica, STHeitiSC-Light, Arial, sans-serif;
+    max-width: 100%;
+    text-align: left;
+    letter-spacing: 0.544px;
+    background-color: rgb(177, 135, 113);
+    box-sizing: border-box !important;
+    overflow-wrap: break-word !important;
+    margin-top: -0.26rem;
+}
+
+.p #Piwe {
+    margin-top: .1rem;
+    margin-bottom: .15rem;
+    padding: 0px;
+    clear: both;
+    color: rgb(51, 51, 51);
+    font-family: mp-quote, -apple-system-font, system-ui, "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", Arial, sans-serif;
+    text-align: justify;
+    white-space: normal;
+    line-height: 1.75em;
+    letter-spacing: 1px;
+}
+
+.p #hoe {
+    padding: 0;
+    max-width: 100%;
+    height: .46rem;
+    width: 3.26rem;
+    -webkit-box-sizing: border-box !important;
+    /* box-sizing: border-box !important; */
+    /* overflow-wrap: break-word !important; */
+    /* visibility: visible !important; */
+    font-size: 0.3rem;
+    color: black;
+    text-align: center;
+    margin-top: .18rem;
+    position: relative;
+    top: -0.2rem;
+}
+
+.flex .io {
+    margin-left: .1rem;
+}
+
+.p #ido {
+    position: absolute;
+    left: 1.08rem;
+}
+
+.shnb .focus {
+    display: inline-block;
+    position: relative;
+    padding: 0px 0 0px .4rem;
+    line-height: .5rem;
+    font-size: .14rem;
+    color: #000;
+    top: -0.3rem;
+}
+
+.cole {
+    border-bottom: 1px solid #cccccc;
+}
+
+.footButton {
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    height: .5rem;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+}
+
+.footButton .van-icon {
+    font-size: .24rem;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 .1rem;
+}
+
+.footButton .change {
+    border: none;
+    font-size: .2rem;
+    padding: .1rem .3rem;
+    color: #fff;
+}
+
+.footButton .txtTitle {
+    font-size: 0.14rem;
+    padding: 0.05rem 0.1rem;
+    color: rgba(56, 56, 56, 0.829);
+}
+
+.footButton .footButton-txt {
+    display: flex;
+    width: 100%;
+    font-size: 0.13rem;
+    border-top: 1px solid rgba(207, 203, 203, 0.541);
+    border-bottom: 1px solid rgba(207, 203, 203, 0.541);
+    padding: 0.1rem;
+}
+
+.footButton .footButton-txt img {
+    width: 0.8rem;
+    height: 0.8rem;
+}
+
+.footButton .footButton-txt .footButton-title {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.footButton .footButton-txt .footButton-title .footButton-l-title {
+    margin-left: .15rem;
+    display: flex;
+    flex-direction: column;
+}
+.footButton .footButton-txt .footButton-title .footButton-l-title p:nth-of-type(1){
+    margin-top: .1rem !important;
+}
+
+.footButton .footButton-txt .footButton-title .footButton-l-title p:nth-last-of-type(1) {
+    margin-top: 0.4rem;
+}
+
+.footButton .footButton-txt .footButton-title .van-icon {
+    font-size: 0.16rem;
+    color: #ccc;
+}
+
+.footButton .van-button {
+    background-color: red !important;
+    border: none;
+    margin-top: -.02rem;
+    margin-right: -.01rem;
+}
+.footButton .you {
+    width: 1.2rem;
+    height: .52rem;
+    border: none;
+}
+.footButton .wu {
+    width: 1.2rem;
+    height: .52rem;
+    background-color: #ccc !important;
+}
+.van-overlay{
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.footButton .wuci{
+    font-size: .15rem;
+    width: 2.4rem;
+    height: .7rem;
+    text-align: center;
+    line-height: .7rem;
+    border-radius: .05rem;
+    background-color: #080808bd;
+    color: #fff;
+}

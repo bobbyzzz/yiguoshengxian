@@ -1,0 +1,189 @@
+body {
+    background-color: #f4f4f4;
+}
+
+.mime-box {
+    width: 3.75rem;
+    background-color: #f4f4f4;
+
+    //头部样式
+    .header {
+        width: 100%;
+        height: 1.4rem;
+        background: #2dd282 url("//img06.yiguoimg.com/d/web/180517/01262/143351/bgimg.jpg") 100% 100%;
+        background-size: 100% 100%;
+
+        .header-left {
+            .user-img {
+                width: .75rem;
+                height: .75rem;
+                border-radius: .4rem;
+                position: absolute;
+                top: .28rem;
+                left: .15rem;
+            }
+
+            .text {
+                font-size: .15rem;
+                color: #fff;
+                position: absolute;
+                top: .58rem;
+                left: 1.07rem;
+            }
+
+            // .userName {
+            //     .text {
+            //         font-size: .15rem;
+            //         color: #fff;
+            //         position: absolute;
+            //         top: .58rem;
+            //         left: 1.07rem;
+            //     }
+
+            //     .text:nth-of-type(2) {
+            //         display: none;
+            //     }
+            //     button{
+            //         border: none;
+            //         padding: .03rem .06rem;
+            //         background-color: #19bc7d;
+            //         position: absolute;
+            //         top: .55rem;
+            //         left: 2.2rem;
+            //         // display: none;
+            //     }
+            // }
+
+            .text:nth-of-type(2) {
+                display: none;
+            }
+        }
+
+        .header-right {
+            .header-icon {
+                width: .17rem;
+                height: .19rem;
+                display: inline-block;
+                background: url("../img/setting.png") no-repeat;
+                background-size: 100% 100%;
+                position: absolute;
+                top: .1rem;
+                right: .16rem;
+            }
+        }
+    }
+
+    //余额样式
+    .pice-box {
+        width: 100%;
+        height: .55rem;
+        border-bottom: 1px #4bd0966b solid;
+        display: flex;
+        justify-content: space-between;
+        background-color: #fff;
+
+        .pice-balance,
+        .pice-coin {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            p:nth-of-type(1) {
+                color: #22c67f;
+                font-size: .25rem;
+            }
+
+            p:nth-of-type(2) {
+                color: #7b7b7b;
+                font-size: .13rem;
+                margin-top: .05rem;
+            }
+        }
+    }
+
+    //待支付样式
+    .order-box {
+        width: 100%;
+        height: .8rem;
+        background-color: #fff;
+        margin-top: .1rem;
+        display: flex;
+
+        .order-left {
+            width: 80%;
+            height: 100%;
+            border-right: 1px rgba(204, 204, 204, 0.568) solid;
+            display: flex;
+
+            .order {
+                width: 25%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+
+                .order-icon {
+                    width: .22rem;
+                }
+
+                .order-txt {
+                    margin-top: .1rem;
+                    color: #7b7b7b;
+                }
+            }
+        }
+
+        .order-right {
+            width: 20%;
+
+            .right-a {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+
+                .right-icon {
+                    width: .27rem;
+                }
+
+                .right-txt {
+                    margin-top: .04rem;
+                    color: #7b7b7b;
+                }
+            }
+        }
+    }
+
+    //小图标链接样式
+    .link-box {
+        width: 100%;
+        height: 1.6rem;
+        background-color: #fff;
+        margin-top: .1rem;
+        display: flex;
+        flex-wrap: wrap;
+
+        .link {
+            width: 25%;
+            height: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            .link-icon {
+                width: .34rem;
+            }
+
+            .link-txt {
+                color: #7b7b7b;
+                margin-top: .03rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,98 @@
+.login-box {
+  width: 3.75rem;
+}
+.login-box .header {
+  margin-top: .3rem;
+  width: 100%;
+  border-top: 1px #ccc solid;
+  border-bottom: 1px #ccc solid;
+  background-color: #fff;
+}
+.login-box .header .username-box,
+.login-box .header .password-box {
+  width: 3.55rem;
+  margin-left: .2rem;
+  border-bottom: 1px rgba(204, 204, 204, 0.493) solid;
+  display: flex;
+  align-items: center;
+}
+.login-box .header .username-box .ueser-icon,
+.login-box .header .password-box .ueser-icon {
+  width: .33rem;
+  padding-right: .15rem;
+  color: #008842;
+}
+.login-box .header .username-box .uesername,
+.login-box .header .password-box .uesername,
+.login-box .header .username-box .password,
+.login-box .header .password-box .password {
+  flex: 1;
+  height: .6rem;
+  font-size: .18rem;
+}
+.login-box .header .code-box {
+  height: .6rem;
+  text-align: center;
+}
+.login-box .header .code-box .code-input {
+  width: 70%;
+  height: 100%;
+  font-size: .18rem;
+}
+.login-box .header .code-box .code-style {
+  font-size: 16px;
+  color: red;
+  border: 1px #ccc solid;
+  padding: .04rem .1rem;
+  font-weight: bold;
+}
+.login-box .forget-box {
+  font-size: .14rem;
+  color: #008842;
+  padding: .2rem;
+}
+.login-box .submit-box {
+  width: 100%;
+  height: .6rem;
+  margin-top: .14rem;
+  padding: 0 .15rem;
+  display: flex;
+  justify-content: space-around;
+}
+.login-box .submit-box button {
+  width: 1.42rem;
+  height: .4rem;
+  border: none;
+  border-radius: .05rem;
+}
+.login-box .submit-box .submit-login {
+  background-color: #008842;
+  color: #fff;
+  font-size: .16rem;
+}
+.login-box .submit-box .submit-register {
+  border: 1px #34a068 solid;
+  background-color: #fff;
+  color: #34a068;
+  font-size: .16rem;
+}
+.login-box .logo-box {
+  width: 100%;
+  margin-top: 2.3rem;
+  display: flex;
+  justify-content: center;
+  z-index: 30;
+}
+.login-box .logo-box img {
+  width: 1.04rem;
+  height: .34rem;
+  z-index: 30;
+}
+.login-box .footer-box {
+  width: 100%;
+  height: .5rem;
+  background-color: #f4f4f4;
+  position: fixed;
+  bottom: -0.01rem;
+  z-index: 20;
+}

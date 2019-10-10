@@ -1,0 +1,244 @@
+.product {
+    width: 100%;
+
+    .banner {
+        width: 100%;
+        height: 3rem;
+
+        .van-swipe {
+            margin: 0;
+            padding: 0;
+
+            .van-swipe__track {
+                width: 100%;
+
+                .van-swipe-item {
+                    width: 100%;
+
+                    img {
+                        width: 100%;
+                        height: 3rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .productInfor {
+        // margin-top: .15rem;
+        width: 100%;
+        padding: .15rem 0;
+
+        .title {
+            // width: 100%;
+            font-size: .16rem;
+            // padding: .05rem .05rem 0;
+            line-height: .3rem;
+            padding-right: .53rem;
+            font-weight: 500;
+            color: #333;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            padding-left: .3rem;
+            
+        }
+
+        .subhead {
+            // width: 100%;
+            font-size: .14rem;
+            // padding: .05rem .05rem 0;
+            line-height: .3rem;
+            padding-right: .53rem;
+            font-weight: 500;
+            color: #333;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            padding-left: .3rem;
+
+            .label {
+                font-size: .12rem;
+                padding: .01rem .1rem;
+                vertical-align: middle;
+                color: #11b57c;
+                border: 1px solid #11b57c;
+                border-radius: .5rem;
+                margin-right: .15rem;
+            }
+        }
+
+        .price {
+            line-height: .3rem;
+            font-weight: 500;
+            display: flex;
+            justify-content: space-between;
+            padding-right: .15rem;
+            padding-left: .3rem;
+            border-bottom: 1px solid #ccc;
+
+            .priceIn {
+                .priceRed {
+                    color: red;
+                    font-size: .18rem;
+                }
+            }
+
+            .area {
+                font-size: .14rem;
+                color: rgba(92, 92, 92, 0.76);
+            }
+        }
+
+        .sale {
+            // margin-top: .1rem;
+            border-bottom: 1px solid #ccc;
+            padding: .1rem 0;
+
+            .saleIn {
+                display: flex;
+
+                .couponRedemption {
+                    padding-left: .3rem;
+                    font-size: .14rem;
+                    color: rgba(92, 92, 92, 0.76);
+                    margin-right: .15rem;
+                    padding-top: .07rem;
+                }
+
+                .saleIn-r {
+                    .saleListOne {
+                        display: flex;
+                        align-items: center;
+                        padding-top: .02rem;
+
+                        .label {
+                            padding: .04rem .08rem;
+                            border: 1px solid #11b57c;
+                            border-radius: .5rem;
+                            color: #11b57c;
+                            margin-right: .1rem;
+                        }
+                    }
+
+                    .saleListTwo {
+                        padding-top: .05rem;
+                        display: flex;
+                        align-items: center;
+
+                        .label {
+                            padding: .04rem .08rem;
+                            border: 1px solid #11b57c;
+                            border-radius: .5rem;
+                            color: #11b57c;
+                            margin-right: .1rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        .sevenDay {
+            padding: .2rem;
+            font-size: .16rem;
+            line-height: .3rem;
+        }
+    }
+
+    .nrom {
+        width: 100%;
+
+        .nrom-title {
+            padding: .1rem .2rem;
+            line-height: .3rem;
+            color: rgba(92, 92, 92, 0.76);
+            font-size: .14rem;
+            border-bottom: 1px solid #ccc;
+
+            .choose {
+                padding: .04rem .05rem;
+                border: 1px solid #11b57c;
+                border-radius: .5rem;
+                margin-left: .15rem;
+            }
+        }
+
+        .num {
+            display: flex;
+
+            .change {
+                margin-left: .1rem;
+            }
+        }
+    }
+
+    .address {
+        width: 100%;
+        display: flex;
+        padding: .2rem;
+        margin-bottom: .1rem;
+
+        .title {
+            font-size: .14rem;
+            color: rgba(92, 92, 92, 0.76);
+            margin-right: .15rem;
+            line-height: .2rem;
+        }
+
+        .addressDetail {
+            display: flex;
+            flex-direction: column;
+
+            .add {
+                font-size: .16rem;
+                padding: 0 .1rem .1rem 0;
+                line-height: .2rem;
+
+                span {
+                    color: #11b57c;
+                    font-size: .16rem;
+                }
+            }
+
+            .info {
+                font-size: .12rem;
+                line-height: .2rem;
+
+                span {
+                    color: #11b57c;
+                    margin-right: .05rem;
+                }
+            }
+        }
+    }
+
+    .evaluate {
+        margin-bottom: .1rem;
+
+        .notxt {
+            padding: .1rem .2rem;
+            line-height: .2rem;
+            color: rgba(92, 92, 92, 0.76);
+        }
+    }
+
+    .btn {
+        margin-bottom: .6rem;
+        a {
+            display: block;
+            width: 2rem;
+            padding: .1rem .28rem;
+            border: 1px solid #aaa;
+            color: #999;
+            font-size: .16rem;
+            margin: 0 auto;
+            border-radius: 3px;
+            text-align: center;
+            line-height: .3rem;
+        }
+    }
+    //购物车
+    .footCar{
+        .van-goods-action{
+            z-index: 100;
+        }
+    }
+}
